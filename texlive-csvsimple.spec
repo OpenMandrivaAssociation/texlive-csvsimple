@@ -1,3 +1,9 @@
+# revision 21981
+# category Package
+# catalog-ctan /macros/latex/contrib/csvsimple
+# catalog-date 2011-04-05 08:28:39 +0200
+# catalog-license lppl1.3
+# catalog-version 1.02
 Name:		texlive-csvsimple
 Version:	1.02
 Release:	1
@@ -46,6 +52,7 @@ sorting or data base storage.
 %doc %{_texmfdistdir}/doc/latex/csvsimple/csvsimple-example.pdf
 %doc %{_texmfdistdir}/doc/latex/csvsimple/csvsimple-example.tex
 %doc %{_texmfdistdir}/doc/latex/csvsimple/csvsimple.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ sorting or data base storage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
