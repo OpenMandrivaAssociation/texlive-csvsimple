@@ -1,11 +1,11 @@
-# revision 21981
+# revision 24515
 # category Package
 # catalog-ctan /macros/latex/contrib/csvsimple
-# catalog-date 2011-04-05 08:28:39 +0200
+# catalog-date 2011-11-04 22:30:25 +0100
 # catalog-license lppl1.3
-# catalog-version 1.02
+# catalog-version 1.03
 Name:		texlive-csvsimple
-Version:	1.02
+Version:	1.03
 Release:	1
 Summary:	Simple CSV file processing
 Group:		Publishing
