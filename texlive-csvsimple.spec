@@ -53,3 +53,29 @@ sorting or data base storage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.05-1
++ Revision: 787578
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.04-2
++ Revision: 750660
+- Rebuild to reduce used resources
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.04-1
++ Revision: 732515
+- texlive-csvsimple
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.03-1
++ Revision: 729646
+- texlive-csvsimple
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.02-1
++ Revision: 718175
+- texlive-csvsimple
+- texlive-csvsimple
+- texlive-csvsimple
+- texlive-csvsimple
+
