@@ -1,11 +1,11 @@
-# revision 25618
+# revision 31777
 # category Package
 # catalog-ctan /macros/latex/contrib/csvsimple
-# catalog-date 2012-03-12 18:07:18 +0100
+# catalog-date 2013-09-25 21:12:12 +0200
 # catalog-license lppl1.3
-# catalog-version 1.05
+# catalog-version 1.07
 Name:		texlive-csvsimple
-Version:	1.05
+Version:	1.07
 Release:	1
 Summary:	Simple CSV file processing
 Group:		Publishing
@@ -53,29 +53,3 @@ sorting or data base storage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.05-1
-+ Revision: 787578
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.04-2
-+ Revision: 750660
-- Rebuild to reduce used resources
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.04-1
-+ Revision: 732515
-- texlive-csvsimple
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.03-1
-+ Revision: 729646
-- texlive-csvsimple
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.02-1
-+ Revision: 718175
-- texlive-csvsimple
-- texlive-csvsimple
-- texlive-csvsimple
-- texlive-csvsimple
-
