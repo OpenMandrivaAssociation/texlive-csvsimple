@@ -6,7 +6,7 @@
 # catalog-version 1.07
 Name:		texlive-csvsimple
 Version:	1.07
-Release:	3
+Release:	4
 Summary:	Simple CSV file processing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csvsimple
