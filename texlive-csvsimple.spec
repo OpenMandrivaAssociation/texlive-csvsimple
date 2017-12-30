@@ -1,12 +1,6 @@
-# revision 31777
-# category Package
-# catalog-ctan /macros/latex/contrib/csvsimple
-# catalog-date 2013-09-25 21:12:12 +0200
-# catalog-license lppl1.3
-# catalog-version 1.07
 Name:		texlive-csvsimple
-Version:	1.07
-Release:	9
+Version:	1.20
+Release:	1
 Summary:	Simple CSV file processing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csvsimple
@@ -36,13 +30,8 @@ sorting or data base storage.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/csvsimple/csvsimple.sty
-%doc %{_texmfdistdir}/doc/latex/csvsimple/CHANGES
-%doc %{_texmfdistdir}/doc/latex/csvsimple/README
-%doc %{_texmfdistdir}/doc/latex/csvsimple/csvsimple-example.pdf
-%doc %{_texmfdistdir}/doc/latex/csvsimple/csvsimple-example.tex
-%doc %{_texmfdistdir}/doc/latex/csvsimple/csvsimple.pdf
-%doc %{_texmfdistdir}/doc/latex/csvsimple/csvsimple.tex
+%{_texmfdistdir}/tex/latex/csvsimple
+%doc %{_texmfdistdir}/doc/latex/csvsimple
 
 #-----------------------------------------------------------------------
 %prep
