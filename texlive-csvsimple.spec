@@ -1,6 +1,6 @@
 Name:		texlive-csvsimple
-Version:	64450
-Release:	2
+Version:	67058
+Release:	1
 Summary:	Simple CSV file processing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csvsimple
