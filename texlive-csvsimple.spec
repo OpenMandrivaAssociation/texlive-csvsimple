@@ -1,5 +1,5 @@
 Name:		texlive-csvsimple
-Version:	69494
+Version:	71274
 Release:	1
 Summary:	Simple CSV file processing
 Group:		Publishing
