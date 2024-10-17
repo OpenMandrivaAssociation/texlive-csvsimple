@@ -3,7 +3,7 @@ Version:	71274
 Release:	1
 Summary:	Simple CSV file processing
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/csvsimple
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/csvsimple
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csvsimple.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csvsimple.doc.r%{version}.tar.xz
